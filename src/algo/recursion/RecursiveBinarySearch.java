@@ -4,15 +4,16 @@ public class RecursiveBinarySearch {
 
 	public static void main(String[] args) {
 		
-		System.out.println(recursiveBinarySearch(new int[] {23, 123, 128,213,456},0,5,898));
+		System.out.println(recursiveBinarySearch(new int[] {23, 123, 128,213,456},0,5,3));
 
 	}
 	
 	
 	public static int recursiveBinarySearch(int[]array,int first,int last,int target) {
 		//first = 0; last = array.length -1;
-		
-		if(first >= last) {
+		System.out.println("[ "+ first+ "...."+ last + " ]");
+		if(first > last) {
+			
 			return -1;
 			
 		}
