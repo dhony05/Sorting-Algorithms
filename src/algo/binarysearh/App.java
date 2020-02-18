@@ -22,6 +22,7 @@ public static int binarySearch(int[] array, int target) {
 			// we re-range it setting a new starting point after middle
 			
 		}
+		
 		else if(target < array[middle]  ) {
 			last = middle - 1;
 			//if the target is less than the element in the middle
